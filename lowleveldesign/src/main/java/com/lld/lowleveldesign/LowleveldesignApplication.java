@@ -51,8 +51,8 @@ public static void main(String[] args) throws Exception,CloneNotSupportedExcepti
 //    oos.writeObject(single3);
 	System.out.println("serialization done....");
 	ObjectInputStream ois = new ObjectInputStream(new FileInputStream("abc.ob"));
-   Singleton3 s3 = (Singleton3) ois.readObject();
-   System.out.println(s3.hashCode());
+    Singleton3 s3 = (Singleton3) ois.readObject();
+    System.out.println(s3.hashCode());
     Singleton3 s4=(Singleton3)singleton3.clone();
     System.out.println(s4.hashCode());
 
