@@ -13,5 +13,8 @@ public static void main(String[] args){
     sukanyas.dob= "03011999";
     sukanyas.gender= "Female";
     sukanyas.updateDoB("0304111");
+    
+    Human n = sukanya;
+    n.updateDoB(("24011999"));
 }
 }
