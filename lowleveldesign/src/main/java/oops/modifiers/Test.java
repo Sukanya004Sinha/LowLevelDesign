@@ -10,9 +10,24 @@
  */
 /**
  * child class creation is possible or not?
+ * if the class is not final then child class creation is not possible if the class is final then the child class creation is possible
+ * By using appropriate modifiers we can describe the behaviour of the classes
+ */
+/**
+ * Various modifers applicable for top level classes
+ * public , default, abstract , final, strictfp
+ */
+
+/**
+ * if it is inner class then  private is allowed , protected is allowed and static is allowed
+ */
+
+/**
+ * Abstract method - not clear (partially)
+ * it is applicable for class , methods
  *
  */
-package oops.modifiers;
+ package oops.modifiers;
 
 public class Test {
 
