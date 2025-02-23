@@ -1,5 +1,5 @@
 package com.lld.lowleveldesign.StrategyDesignPatternExample2;
-
+//Concrete Strategies:
 public class FlatDiscount implements DiscountStrategy{
     private double discountRate= 0.10;
     public void giveDiscount(){

@@ -1,0 +1,11 @@
+Strategy Design Pattern -
+The Strategy Design Pattern is a behaviour design pattern that allows you to define a family of algorithms, encapsulate each one, and make them interchangeable. The Strategy pattern lets the algorithm vary independently from the clients that use it.
+
+Key Components:
+Strategy Interface: Defines a common interface for all supported algorithms.
+Concrete Strategies: Implement the strategy interface with specific algorithms.
+Context: Context: Maintains a reference to a strategy object and delegates the algorithm execution to the strategy object.
+
+
+In this example, the ApplyDiscount class (context) uses different discount strategies (FlatDiscount, CashBackDiscount, CouponDiscount) interchangeably. T
+the DiscountStrategy interface defines a common method giveDiscount that each concrete strategy implements differently.

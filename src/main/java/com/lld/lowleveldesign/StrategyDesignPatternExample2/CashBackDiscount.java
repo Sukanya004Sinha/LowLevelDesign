@@ -1,5 +1,5 @@
 package com.lld.lowleveldesign.StrategyDesignPatternExample2;
-
+//Concrete Strategies:
 public class CashBackDiscount implements DiscountStrategy{
     private double cashBackRate = 0.05;
 

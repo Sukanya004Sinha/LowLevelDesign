@@ -1,5 +1,5 @@
 package com.lld.lowleveldesign.StrategyDesignPatternExample2;
-
+//Context:
 public class ApplyDiscount
 {
     DiscountStrategy discountStrategy;
