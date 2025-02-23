@@ -1,0 +1,46 @@
+What is Spring boot?
+
+1. Spring boot is a Java framework that makes it easier to create and run java applications(different types of application).
+2. It simplifies the configuration and setup process and allowing developers to focus more on writing code for their applications.
+3. Spring boot a module of Spring framework facilitates Rapid Application(RAD) capabilities.
+4. Spring boot solve many developers problem
+a) configurations
+b) dependency Management
+c) Embedded Server
+d) And many more
+
+Q2. Wht Spring boot over Spring?
+Spring boot provide more advantages over normal spring framework
+a) Easy to use - Remove boilerplate codes.
+b)Production ready applications - Matrix, Health check and many features are designed for production ready application.
+c) Rapid Development - Opinionated approach and autoconfiguration enable developers to quickly develop apps.
+d) provide Dependency Management - No need to manage separate dependency manually.
+e) Autoconfiguration : Spring boot Auto configuration things be default.
+f) Embedded Server : Provide tomcat by default.
+
+q3. Working of Spring Boot
+1. Spring boot starts by scanning the starter dependencies in pom.xml.
+then download and autoconfigure the module as you included in pom.xml
+2. For example, we have to create web application then we have to put spring boot starter web dependency in pom.xml
+when we start the project spring boot downloads all the dependency required for web and configure the things like spring mvc
+
+Q4) How Spring boot starts?
+1. Starts by calling main() method of your main class.
+2. The run() method of SpringApplication is called. This method starts the application by creating an application context and initializing it.
+3. Once the application context is initialized, the run() method starts the application's embedded web server.
+
+@SpringBootApplication
+public class SpringBootWorkApplication {
+public static void main(String[] args) {
+SpringApplication.run(SpringBootWorkApplication.class, args);
+}
+}
+
+Q5) Spring Boot Annotations
+@SpringBootApplication : It combines three annotations:
+@Configuration, @EnableAutoConfiguration and @ComponentScan
+It is typically placed on the main class of the application
+
+@Component - It is used to mark a class as a Spring Bean that will be managed by Spring Container.
+@Autowired : This annotation is used to automatically inject dependency into a spring managed bean
+@service - This annotation is used to 
