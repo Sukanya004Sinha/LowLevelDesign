@@ -19,8 +19,11 @@ class Mobile {
     String color;
     String type;
 
+    public static void show1(Mobile3 obj1) {
+    }
 
-public void show() {
+
+    public void show() {
     System.out.println("brand: "+ brand +  ", price: " + price + " ,network:" +  network + " ,name: " +  name + " ,color:" + color+" ,type:" + type);
 }
 
