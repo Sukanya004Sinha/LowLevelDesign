@@ -1,4 +1,4 @@
-package oops.multithreading;
+package oops.modifiers.multithreading;
 
 /***
  * 1 is least priority

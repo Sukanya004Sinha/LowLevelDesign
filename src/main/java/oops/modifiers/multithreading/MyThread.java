@@ -1,4 +1,4 @@
-package oops.multithreading;
+package oops.modifiers.multithreading;
 
 public class MyThread extends Thread {
     int[] values = {6, 5, 1, 7, 8};

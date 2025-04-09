@@ -1,4 +1,4 @@
-package oops.multithreading;
+package oops.modifiers.multithreading;
 
 /**
  * Join method is used to make te main tread wait for the child thread to finish

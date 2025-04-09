@@ -1,4 +1,4 @@
-package oops.multithreading;
+package oops.modifiers.multithreading;
 
 /**
  * Synchronization is a mechanism that ensures that only one thread can access a resource at a time. if t1 is using a resource, t2 will wait for t1 to release the resource.

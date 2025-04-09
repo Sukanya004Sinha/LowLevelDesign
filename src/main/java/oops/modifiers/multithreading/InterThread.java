@@ -1,4 +1,4 @@
-package oops.multithreading;
+package oops.modifiers.multithreading;
 class Q{
     int num;
     public void put (int num) {

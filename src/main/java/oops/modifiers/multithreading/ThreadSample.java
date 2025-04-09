@@ -1,4 +1,4 @@
-package oops.multithreading;
+package oops.modifiers.multithreading;
 
 class Hii implements Runnable{
     public void run(){

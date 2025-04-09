@@ -1,4 +1,4 @@
-package oops.multithreading;
+package oops.modifiers.multithreading;
 class Hi extends Thread{
 //    public void show(){
     public void run(){
