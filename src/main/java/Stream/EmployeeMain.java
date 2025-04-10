@@ -65,5 +65,6 @@ public class EmployeeMain {
                 .sorted((e1, e2) -> Integer.compare(e2.getSalary(), e1.getSalary()))
                 .collect(Collectors.toList());
         sortedEmployees.forEach(System.out::println);
+        sortedEmployees.forEach((e) -> System.out.println("Employee Name: " + e.getName() + ", Salary: " + e.getSalary()));
         sortedEmployee1.forEach(System.out::println);    }
 }

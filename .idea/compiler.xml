@@ -7,15 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lowleveldesign" />
+        <module name="lowleveldesign (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="lowleveldesign" target="17" />
+      <module name="lowleveldesign (1)" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="lowleveldesign" options="-parameters" />
+      <module name="lowleveldesign (1)" options="-parameters" />
     </option>
   </component>
 </project>
