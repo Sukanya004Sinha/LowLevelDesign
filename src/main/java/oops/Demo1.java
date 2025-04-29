@@ -9,6 +9,7 @@ class Mobile1 {
     static String name;
     String color;
     String type;
+
  public Mobile1(){
      brand= "";
      price = 200;

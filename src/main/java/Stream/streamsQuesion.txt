@@ -1,0 +1,61 @@
+
+
+🔹 Beginner Level
+What is the Java Streams API? How is it different from collections?
+
+What is the difference between Stream and Collection?
+
+How do you create a stream in Java?
+
+What are the different types of streams in Java?
+
+What is the difference between intermediate and terminal operations in streams?
+
+What is lazy evaluation in streams?
+
+How do you convert a list to a stream and vice versa?
+
+🔹 Intermediate Level
+What is the difference between map() and flatMap() in streams?
+
+How do you use filter() in streams? Give an example.
+
+What does collect(Collectors.toList()) do?
+
+How can you use streams to remove duplicates from a list?
+
+What is the role of Optional in Java Streams?
+
+How can you sort a stream of objects based on a field?
+
+How do you use reduce() in streams?
+
+What does peek() do in a stream pipeline?
+
+🔹 Advanced Level
+How do you perform grouping in streams (e.g., using Collectors.groupingBy)?
+
+Explain the difference between findFirst() and findAny().
+
+How would you parallelize stream operations? What are the trade-offs?
+
+What are the pitfalls of using parallel streams?
+
+How would you implement a custom collector?
+
+Can you short-circuit a stream operation? How?
+
+What are stateless vs stateful operations in streams?
+
+What is the difference between limit() and skip()?
+
+🔹 Hands-On Coding Questions
+Write a Java Stream to find the second highest number in a list.
+
+Given a list of strings, count the number of strings that start with a specific letter using streams.
+
+Using streams, group a list of employees by department.
+
+Find the first non-repeating character in a string using streams.
+
+Flatten a list of lists using streams.

@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Demo {
+
     public static void main(String[] args){
         // Create the stream of strings
         Stream<String> streamString = Stream.of("Sukanya", "Ram", "Shyam", "kartik", "Sam");

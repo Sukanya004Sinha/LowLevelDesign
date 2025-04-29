@@ -1,0 +1,28 @@
+SOLID PRINCIPLE
+SOLID- Single Responsibility
+
+
+Open close principle
+open for extension but close for modification
+
+
+Liskov substitution
+If a class B is subtype of class A, then we should be able to replace object of A with B without breaking the behaviour of the program
+Subclass should increase the capability of parent class and not narrow it down
+
+Interface Segmented Principle
+
+Interfaces should be such that client should not implement unnecessay functions that they dop not need
+
+Dependency inversion
+
+class should depend on interface rather then concrete classes
+
+advantages of solid principle
+
+help us to write better code
+avoid duplicate data
+easy to maintain
+easy to understand
+flexible software
+reduce complexity
