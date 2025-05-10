@@ -16,7 +16,10 @@ public class StreamExample {
             }
         }
         System.out.println("Total Employee with salary > 3000 " +count);
-        long output = salaryList.stream().filter((Integer sal) -> sal>3000).count();
-        System.out.println("Total Employee with salary > 3000"+ output);
+        long output = salaryList.stream().filter((Integer sal) -> sal > 3000).count();
+        System.out.println("Total Employee with salary > 3000 "+ output);
+        int output1= (int) salaryList.stream().filter((Integer sal1)-> sal1 >4000).count();
+        System.out.println("Total employee with salary > 4000 " + output1);
     }
+
 }

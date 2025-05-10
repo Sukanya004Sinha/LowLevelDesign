@@ -59,3 +59,53 @@ Using streams, group a list of employees by department.
 Find the first non-repeating character in a string using streams.
 
 Flatten a list of lists using streams.
+
+
+🔹 Beginner Level
+Filter names starting with a specific letter.
+Input: List of names → Output: Names starting with "A".
+
+Convert a list of strings to uppercase.
+
+Count how many strings have length greater than 5.
+
+Remove duplicate elements from a list using streams.
+
+Sort a list of integers in ascending and descending order.
+
+Find the first element that matches a condition.
+(e.g., first even number)
+
+Join a list of strings with a comma separator.
+
+Check if any string in the list contains a given substring.
+
+🔸 Intermediate Level
+Group a list of strings by their lengths.
+
+Count the number of occurrences of each word in a list.
+
+Flatten a list of lists using flatMap.
+
+Find the maximum and minimum number from a list of integers.
+
+Convert a list of strings to a map where key = string, value = length.
+
+Partition a list into even and odd numbers.
+
+Remove null or empty strings from a list.
+
+🔶 Advanced Level
+Sort a list of custom objects (e.g., Person) by age or name.
+
+Group employees by department and then map their names.
+
+Find the oldest person in a list using reduce.
+
+Find the second highest salary from a list of employees.
+
+Convert a nested map to a flat stream of entries.
+
+Perform parallel stream operations and measure execution time.
+
+Chain multiple stream operations (map → filter → sort → collect).
