@@ -1,0 +1,6 @@
+Pojo class stands for Plain Java Object
+Contains Variables and its getter and Setter methods
+Class should be public
+-Public default constructor
+No annotations should be used like @Table @Entity @Id etc
+it should not extend any class or implement interface

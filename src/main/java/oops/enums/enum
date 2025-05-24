@@ -1,0 +1,8 @@
+it has a collection of CONSTANTS (variables which values can not be changed )
+its CONSTANTS are static and final implicitly(WE DO NOT HAVE TO WRITE IT )
+it cannot extend any classs as it internally extends java.lang.enum class
+-it can implement interfaces
+it can have variables, constructor, methods
+it cannot be initiated ( as its constructor will e private only, even ypu can give default cit make it private)
+No other classes can extend enum classes
+it can  have abstract methods all the contants should implement that constants method
