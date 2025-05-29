@@ -1,0 +1,8 @@
+The class objective is to create only 1 and 1 Object.
+Different ways of creating Singelton class
+Eager initialization
+Lazy initialization
+Synchronization block
+Double check locking(there is a memory issue, resolved through Volatile Instance Variable )
+Bill pugh Solution
+Enum Singelton
